@@ -1,0 +1,26 @@
+
+.main_products{
+  margin-top: 100px;
+
+  h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  &_btn{
+    text-align: center;
+    margin-top: 20px;
+    button{
+      width: 150px;
+      padding: 15px 0;
+      border: 1px solid black;
+      background: none;
+      cursor: pointer;
+      &:hover{
+        background: black;
+        color: white;
+      }
+    }
+  }
+}

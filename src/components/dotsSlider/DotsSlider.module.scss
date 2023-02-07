@@ -1,0 +1,15 @@
+
+
+.dots_slider{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.activeDots{
+  background-color: black;
+  box-shadow: 0 0 5 black;
+}

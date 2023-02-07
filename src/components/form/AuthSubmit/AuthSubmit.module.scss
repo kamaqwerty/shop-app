@@ -1,0 +1,17 @@
+.auth_submit_center{
+  text-align: left;
+  
+  .auth_submit{
+    width: 150px;
+    padding: 15px ;
+    border: 1px solid #eee;
+    background: none;
+    cursor: pointer;
+  
+    &:hover{
+      background: black;
+      color: white;
+    }
+  }
+}
+
